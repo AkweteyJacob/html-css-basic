@@ -139,7 +139,7 @@ body{
     height: 100%;
     background: #081b29;
     z-index: -1;
-    transition: .5s;
+    transiti0n: .5s;
 }
 .btn-box a:hover::before{
     width: 100%;
@@ -195,4 +195,36 @@ body{
     100%{
         width:0 ;
     }
+}
+
+.about {
+    padding: 120px 10% 60px; /* Top padding increased to push content below header */
+    background-color: #081b29;
+    color: #ededed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 100px; /* Helps with anchor scroll positioning */
+}
+
+.about-content {
+    max-width: 800px;
+    text-align: left;
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+}
+
+.about-content h2 {
+    font-size: 42px;
+    color: #00abf0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #ccc;
 }
