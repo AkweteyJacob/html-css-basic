@@ -226,8 +226,10 @@ body{
     font-size: 18px;
     line-height: 1.8;
     margin-bottom: 15px;
-    color: #ccc;
+    color: white;
 }
+
+
 
 @keyframes fadeInUp {
   from {
