@@ -228,3 +228,7 @@ body{
     margin-bottom: 15px;
     color: #ccc;
 }
+
+html {
+    scroll-behavior: smooth;
+}
